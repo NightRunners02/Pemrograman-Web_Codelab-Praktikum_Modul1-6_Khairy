@@ -1,4 +1,4 @@
-# Jalankan code: php -S localhost:8888 index.php di terminal vscode
+- Jalankan code: php -S localhost:8888 index.php di terminal vscode
 ---
 
 <details> 
