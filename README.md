@@ -11,6 +11,12 @@
 - Praktikum 1 - Modul 2
 - Praktikum 2 - Modul 2
 ---
+# Modul 3
+- Codelab 1 - Modul 3
+- Codelab 2 - Modul 3
+- Praktikum 1 - Modul 3
+- Praktikum 2 - Modul 3
+---
 <details> 
   <summary>
   <h2> ⛓️‍💥 Misc / Lain-lain</h2> 
