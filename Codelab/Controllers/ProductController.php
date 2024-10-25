@@ -36,6 +36,3 @@ class ProductController extends Controller {
     }
 }
 
-// Contoh penggunaan
-$productController = new ProductController();
-echo $productController->getAllProduct();
