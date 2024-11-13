@@ -1,4 +1,5 @@
 - Ketikan codenya di terminal vs code (gambar dibawah)
+- php -S localhost:8000
 ---
 <div style="display: ; justify-content: space-between; align-items: center;">
   <p align="center">
