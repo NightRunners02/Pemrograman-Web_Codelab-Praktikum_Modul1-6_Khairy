@@ -1,4 +1,4 @@
-- 
+- Ketikan codenya di terminal vs code (gambar dibawah)
 ---
 <div style="display: ; justify-content: space-between; align-items: center;">
   <p align="center">
