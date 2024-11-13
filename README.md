@@ -1,18 +1,17 @@
-- Ketikan codenya di terminal vs code (gambar dibawah)
-- php -S localhost:8000
+- Run DI Terminal VSCODE php -S localhost:8000
+- Ketikan Codenya Di Terminal VSCODE (gambar dibawah)
 ---
 <p align="center">
-
-<img src="https://github.com/user-attachments/assets/76ea183b-437c-4515-8b8c-e88a2f7ab672" height="240px" width="480px" alt="NightRunners02" />
-  </a>
+  <img src="https://github.com/user-attachments/assets/76ea183b-437c-4515-8b8c-e88a2f7ab672" height="240px" width="480px" alt="NightRunners02" />
+</p>
 
 <p align="center">
-
-GET http://localhost:8000/api/product <br>
-GET http://localhost:8000/api/product/{id} <br>
-POST http://localhost:8000/api/product <br>
-PUT http://localhost:8000/api/product/{id} <br>
-DELETE http://localhost:8000/api/product/{id} <br>
+- GET http://localhost:8000/api/product <br>
+- GET http://localhost:8000/api/product/{id} <br>
+- POST http://localhost:8000/api/product <br>
+- PUT http://localhost:8000/api/product/{id} <br>
+- DELETE http://localhost:8000/api/product/{id} <br>
+</p>
 
 ---
 <details> 
