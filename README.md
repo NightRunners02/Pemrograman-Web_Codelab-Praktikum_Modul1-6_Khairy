@@ -1,11 +1,18 @@
 - Ketikan codenya di terminal vs code (gambar dibawah)
 - php -S localhost:8000
 ---
-<div style="display: ; justify-content: space-between; align-items: center;">
-  <p align="center">
+<p align="center">
 
-  <img src="https://github.com/user-attachments/assets/76ea183b-437c-4515-8b8c-e88a2f7ab672" height="240px" width="480px" alt="NightRunners02" />
+<img src="https://github.com/user-attachments/assets/76ea183b-437c-4515-8b8c-e88a2f7ab672" height="240px" width="480px" alt="NightRunners02" />
   </a>
+
+<p align="center">
+
+GET http://localhost:8000/api/product <br>
+GET http://localhost:8000/api/product/{id} <br>
+POST http://localhost:8000/api/product <br>
+PUT http://localhost:8000/api/product/{id} <br>
+DELETE http://localhost:8000/api/product/{id} <br>
 
 ---
 <details> 
