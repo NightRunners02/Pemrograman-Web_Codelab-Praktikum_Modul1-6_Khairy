@@ -1,10 +1,23 @@
--
+- 
 ---
 <div style="display: ; justify-content: space-between; align-items: center;">
   <p align="center">
 
   <img src="https://github.com/user-attachments/assets/76ea183b-437c-4515-8b8c-e88a2f7ab672" height="240px" width="480px" alt="NightRunners02" />
   </a>
+
+---
+<details> 
+  <summary>
+  <h2> ⛓️‍💥 Misc / Lain-lain</h2> 
+  </summary>
+
+<p>
+<div align="center">
+<h3>
+  🗣️ Powered By:
+</h3>
+<img src="https://awesome-svg.vercel.app/card/card_2?name=NightRunners02&summary=Newbie%20Developer&style=nameColor:rgba(223,255,0,1);summaryColor:rgba(57,255,20,1);backgroundColor:rgba(0,0,0,1);" />
 
 ---
 <h3>
