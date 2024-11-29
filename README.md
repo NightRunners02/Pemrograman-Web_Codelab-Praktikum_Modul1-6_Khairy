@@ -20,9 +20,13 @@
 # Modul 4
 - Codelab 1 - Modul 4 | (✅) 🗣️🔥
 - Codelab 2 - Modul 4 | (✅) 🗣️🔥
-- Praktikum 1 - Modul 4 | (⛔️) 🗣️🔥
-- Praktikum 2 - Modul 4 | (⛔️) 🗣️🔥
-- Praktikum 3 - Modul 4 | (⛔️) 🗣️🔥
+- Praktikum 1 - Modul 4 | (✅) 🗣️🔥
+- Praktikum 2 - Modul 4 | (✅) 🗣️🔥
+- Praktikum 3 - Modul 4 | (✅) 🗣️🔥
+---
+# Modul 5
+- Codelab 1 - Modul 5 | (✅) 🗣️🔥
+- Praktikum 1 - Modul 5 | (⛔️) 🗣️🔥
 
 ---
 <details> 
