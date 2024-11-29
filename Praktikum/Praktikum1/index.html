@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Pendaftaran Kursus Online</title>
+  </head>
+  <body>
+    <header class="navbar">
+      <h1>Kursus Online</h1>
+      <button class="hamburger" onclick="toggleMenu()">☰</button>
+      <nav class="nav-menu">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#courses">Kursus</a></li>
+          <li><a href="#about">Tentang Kami</a></li>
+          <li><a href="#contact">Kontak</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="home" class="hero">
+        <div class="hero-box">
+          <h2>Selamat Datang Di Website Kursus Online</h2>
+          <img src="Rimuruu.gif" alt="Rimuru" height="144" width="144" />
+          <p>
+            Belajar dari Mana Saja, Kapan Saja, Daftar sekarang dan mulai
+            perjalanan belajarmu bersama kami!
+          </p>
+          <button onclick="scrollToSection('courses')">Mulai Sekarang</button>
+        </div>
+      </section>
+    </main>
+
+    <section id="courses" class="courses">
+      <div class="section-box">
+        <h2>Kursus Kami</h2>
+        <div class="course-list">
+          <!-- Web Development Course -->
+          <form action="save_course.php" method="POST">
+            <div class="course-card">
+              <a href="data kursus/Web Development.html" class="link" style="color: white; text-decoration: none;">
+                <h3 style="color: white; margin: 0;">Web Development</h3>
+              </a>
+              <img
+                src="https://crocodic.com/wp-content/uploads/2024/01/5467393_1687-scaled.jpg"
+                alt="Web Development"
+                height="144"
+                width="144"
+              />
+              <p>Belajar HTML, CSS, dan JavaScript.</p>
+              <input type="hidden" name="course_name" value="Web Development" />
+              <button type="submit">Daftar</button>
+            </div>
+          </form>
+
+          <!-- Data Science Course -->
+          <form action="save_course.php" method="POST">
+            <div class="course-card">
+              <a href="data kursus/Data Science.html" class="link" style="color: white; text-decoration: none;">
+                <h3 style="color: white; margin: 0;">Data Science</h3>
+              </a>
+              <img
+                src="https://cdn-ilaejen.nitrocdn.com/gmLRksxLHanijnmQJxKKSJtUpocbfBnq/assets/images/optimized/rev-72e11f1/www.inixindo.id/wp-content/uploads/2024/05/7-Sertifikasi-Data-Science-ini-bisa-Membuat-Karirmu-Melesat-Tinggi-di-Era-Data-Driven-870x503.webp"
+                alt="Data Science"
+                height="144"
+                width="144"
+              />
+              <p>Belajar Python, Pandas, dan Machine Learning.</p>
+              <input type="hidden" name="course_name" value="Data Science" />
+              <button type="submit">Daftar</button>
+            </div>
+          </form>
+
+          <!-- UI/UX Design Course -->
+          <form action="save_course.php" method="POST">
+            <div class="course-card">
+              <a href="data kursus/UX Design.html" class="link" style="color: white; text-decoration: none;">
+                <h3 style="color: white; margin: 0;">UI/UX Design</h3>
+              </a>
+              <img
+                src="https://bif.telkomuniversity.ac.id/sahecar/2024/09/Mengapa-UI-UX-Design-Sangat-Penting-dalam-Pengembangan-Aplikasi.png"
+                alt="UI/UX Design"
+                height="144"
+                width="144"
+              />
+              <p>Pelajari desain dan prototipe menggunakan Figma.</p>
+              <input type="hidden" name="course_name" value="UI/UX Design" />
+              <button type="submit">Daftar</button>
+            </div>
+          </form>
+
+          <!-- Mobile App Development Course -->
+          <form action="save_course.php" method="POST">
+            <div class="course-card">
+              <a href="data kursus/Mobile App Development.html" class="link" style="color: white; text-decoration: none;">
+                <h3 style="color: white; margin: 0;">Mobile App Development</h3>
+              </a>
+              <img
+                src="https://img.freepik.com/free-vector/app-development-banner_33099-1720.jpg?t=st=1732166636~exp=1732170236~hmac=52053d840b85747a89424b56cd29211d89a260d0f3f25c8ed88c944556a17b1e&w=996"
+                alt="Mobile App Development"
+                height="144"
+                width="144"
+              />
+              <p>
+                Pelajari pembuatan aplikasi mobile menggunakan Flutter dan Dart.
+              </p>
+              <input
+                type="hidden"
+                name="course_name"
+                value="Mobile App Development"
+              />
+              <button type="submit">Daftar</button>
+            </div>
+          </form>
+
+          <!-- Cybersecurity Course -->
+          <form action="save_course.php" method="POST">
+            <div class="course-card">
+              <a href="data kursus/Cybersecurity.html" class="link" style="color: white; text-decoration: none;">
+                <h3 style="color: white; margin: 0;">Cybersecurity</h3>
+              </a>
+              <img
+                src="https://img.freepik.com/free-photo/ai-cybersecurity-virus-protection-machine-learning_53876-129788.jpg?t=st=1732167188~exp=1732170788~hmac=ba9c6635ea78caef06a9e4e9d19a581f299a0acf72bfbaffbd33ace36db01460&w=740"
+                alt="Cybersecurity"
+                height="144"
+                width="144"
+              />
+              <p>Pelajari dasar-dasar keamanan jaringan dan aplikasi.</p>
+              <input type="hidden" name="course_name" value="Cybersecurity" />
+              <button type="submit">Daftar</button>
+            </div>
+          </form>
+
+          <!-- Digital Marketing Course -->
+          <form action="save_course.php" method="POST">
+            <div class="course-card">
+              <a href="data kursus/Digital Marketing.html" class="link" style="color: white; text-decoration: none;">
+                <h3 style="color: white; margin: 0;">Digital Marketing</h3>
+              </a>
+              <img
+                src="https://img.freepik.com/free-photo/corporate-management-strategy-solution-branding-concept_53876-167088.jpg?t=st=1732167572~exp=1732171172~hmac=a60e6a7172ad53ff503221d507687843396b8f570c219e5a13440a1edc8019fe&w=996"
+                alt="Digital Marketing"
+                height="144"
+                width="144"
+              />
+              <p>Pelajari strategi pemasaran melalui platform digital.</p>
+              <input
+                type="hidden"
+                name="course_name"
+                value="Digital Marketing"
+              />
+              <button type="submit">Daftar</button>
+            </div>
+          </form>
+
+          <!-- Game Development Course -->
+          <form action="save_course.php" method="POST">
+            <div class="course-card">
+              <a href="data kursus/Game Development.html" class="link" style="color: white; text-decoration: none;">
+                <h3 style="color: white; margin: 0;">Game Development</h3>
+              </a>
+              <img
+                src="https://widya.ai/wp-content/uploads/2023/03/Optimized-Illustration-from-Adobe-Stock-for-ITC-Post-on-AI-in-Game-Development-scaled-1.jpeg"
+                alt="Game Development"
+                height="144"
+                width="144"
+              />
+              <p>Pelajari pembuatan game menggunakan Unity dan C#.</p>
+              <input
+                type="hidden"
+                name="course_name"
+                value="Game Development"
+              />
+              <button type="submit">Daftar</button>
+            </div>
+          </form>
+
+          <!-- Cloud Computing Course -->
+          <form action="save_course.php" method="POST">
+            <div class="course-card">
+              <a href="data kursus/Cloud Computing.html" class="link" style="color: white; text-decoration: none;">
+                <h3 style="color: white; margin: 0;">Cloud Computing</h3>
+              </a>
+              <img
+                src="https://assets-a1.kompasiana.com/items/album/2023/07/11/cloud-64ac43c34addee311b7b12c2.jpg"
+                alt="Cloud Computing"
+                height="144"
+                width="144"
+              />
+              <p>
+                Pelajari layanan cloud seperti AWS, Google Cloud, dan Microsoft
+                Azure.
+              </p>
+              <input type="hidden" name="course_name" value="Cloud Computing" />
+              <button type="submit">Daftar</button>
+            </div>
+          </form>
+
+          <!-- Artificial Intelligence Course -->
+          <form action="save_course.php" method="POST">
+            <div class="course-card">
+              <a href="data kursus/Artificial Intelligence.html" class="link" style="color: white; text-decoration: none;">
+                <h3 style="color: white; margin: 0;">Artificial Intelligence</h3>
+              </a>
+              <img
+                src="https://asset.kompas.com/crops/xjcNbFyx4Sl51KJ4XHYb-lMUCdM=/20x0:770x500/750x500/data/photo/2023/02/07/63e226d5c74bb.jpg"
+                alt="Artificial Intelligence"
+                height="144"
+                width="144"
+              />
+              <p>Pelajari algoritma dan aplikasi AI dalam berbagai bidang.</p>
+              <input
+                type="hidden"
+                name="course_name"
+                value="Artificial Intelligence"
+              />
+              <button type="submit">Daftar</button>
+            </div>
+          </form>
+
+          <!-- Blockchain Course -->
+          <form action="save_course.php" method="POST">
+            <div class="course-card">
+              <a href="data kursus/Blockchain.html" class="link" style="color: white; text-decoration: none;">
+                <h3 style="color: white; margin: 0;">Blockchain</h3>
+              </a>
+              <img
+                src="https://supplychainindonesia.com/wp-content/uploads/2019/07/27453-blockchain-1.jpg"
+                alt="Blockchain"
+                height="144"
+                width="144"
+              />
+              <p>Pelajari teknologi blockchain dan aplikasi kripto.</p>
+              <input type="hidden" name="course_name" value="Blockchain" />
+              <button type="submit">Daftar</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="about">
+      <div class="section-box">
+        <h2>Tentang Kami</h2>
+        <p>
+          Kami adalah platform edukasi online yang menyediakan berbagai kursus
+          berkualitas untuk membantu Anda mencapai tujuan belajar Anda. Dengan
+          pengalaman bertahun-tahun di dunia pendidikan dan teknologi, kami
+          hadir untuk memberikan akses pembelajaran yang fleksibel dan dapat
+          diakses kapan saja, di mana saja.
+        </p>
+        <p>
+          Visi kami adalah memberdayakan individu melalui pendidikan yang dapat
+          diakses dengan mudah oleh siapa saja, tanpa batasan geografis atau
+          waktu. Kami percaya bahwa setiap orang berhak mendapatkan kesempatan
+          untuk belajar dan berkembang, apapun latar belakang mereka.
+        </p>
+        <p>
+          Platform kami menawarkan berbagai kursus dalam berbagai bidang, mulai
+          dari Teknologi Informasi, Desain, Bisnis, hingga Pengembangan Diri.
+          Setiap kursus dirancang oleh para ahli di bidangnya dan disajikan
+          dengan materi yang mudah dipahami, menggunakan metode pembelajaran
+          yang interaktif dan menyenangkan.
+        </p>
+        <p>Fitur unggulan dari platform kami adalah:</p>
+        <ul>
+          <li>
+            <strong>Akses Kapan Saja dan Di Mana Saja:</strong> Anda dapat
+            mengakses materi pembelajaran kapan saja, selama 24 jam sehari dan 7
+            hari seminggu, melalui perangkat apa saja.
+          </li>
+          <li>
+            <strong>Pengalaman Belajar Interaktif:</strong> Kami menawarkan
+            materi pembelajaran dengan video, kuis, dan tugas yang membuat
+            proses belajar lebih menarik dan efektif.
+          </li>
+          <li>
+            <strong>Instruktur Berpengalaman:</strong> Semua instruktur kami
+            adalah profesional berpengalaman di bidangnya, yang siap memberikan
+            pengetahuan dan pengalaman terbaik kepada Anda.
+          </li>
+          <li>
+            <strong>Sertifikat Setelah Lulus:</strong> Setelah menyelesaikan
+            kursus, Anda akan mendapatkan sertifikat yang dapat meningkatkan
+            kredibilitas Anda di dunia kerja.
+          </li>
+        </ul>
+        <p>
+          Kami juga memiliki komunitas belajar yang aktif, di mana Anda dapat
+          berdiskusi, bertanya, dan berbagi pengalaman dengan sesama pelajar di
+          seluruh dunia. Selain itu, kami terus memperbarui dan menambah materi
+          kursus agar tetap relevan dengan perkembangan dunia industri dan
+          teknologi terkini.
+        </p>
+        <p>
+          Di <strong>Website ini</strong>, kami percaya bahwa pendidikan
+          adalah kunci untuk membuka peluang dan mencapai impian Anda.
+          Bergabunglah dengan kami sekarang dan mulai perjalanan belajar Anda
+          untuk masa depan yang lebih baik!
+        </p>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <div class="section-box">
+        <h2>Kontak Kami</h2>
+        <form id="contactForm">
+          <input type="text" id="name" placeholder="Nama Lengkap" required />
+          <input type="email" id="email" placeholder="Email" required />
+          <textarea
+            id="message"
+            placeholder="Pesan Anda"
+            rows="5"
+            required
+          ></textarea>
+          <button type="submit">Kirim</button>
+        </form>
+      </div>
+    </section>
+
+    <script>
+      // Tangani form submit
+      document
+        .getElementById("contactForm")
+        .addEventListener("submit", function (event) {
+          event.preventDefault();
+
+          // Ambil nilai dari form
+          var name = document.getElementById("name").value;
+          var email = document.getElementById("email").value;
+          var message = document.getElementById("message").value;
+
+          // Buat data yang akan dikirim menggunakan FormData
+          var formData = new FormData();
+          formData.append("name", name);
+          formData.append("email", email);
+          formData.append("message", message);
+
+          // Kirim data menggunakan fetch (AJAX)
+          fetch("save_contact.php", {
+            method: "POST",
+            body: formData,
+          })
+            .then((response) => response.json())
+            .then((data) => {
+              if (data.message) {
+                alert(data.message); // Menampilkan pesan sukses
+              } else {
+                alert(data.error); // Menampilkan pesan error
+              }
+            })
+            .catch((error) => {
+              console.error("Error:", error);
+              alert("Terjadi kesalahan saat mengirim pesan.");
+            });
+        });
+    </script>
+
+    <footer>
+      <p>&copy; Designed by NightRunners02</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

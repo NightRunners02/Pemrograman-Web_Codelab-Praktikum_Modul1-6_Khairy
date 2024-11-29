@@ -16,7 +16,7 @@ class ProductRoutes
         }
 
         // JIKA REQUEST METHOD GET DAN PATH SAMA DENGAN /api/product/{id}
-        else if ($method === "GET" && strpos($path, "/api/product/") === 0) {
+        else if ($method === "GET" && strpos($path, "/api/product/") == 0) {
             $pathParts = explode("/", $path);
             $id = $pathParts[count($pathParts) - 1];
             $controller = new ProductController();
@@ -30,7 +30,7 @@ class ProductRoutes
         }
 
         // JIKA REQUEST METHOD PUT DAN PATH SAMA DENGAN /api/product/{id}
-        else if ($method === "PUT" && strpos($path, "/api/product/") === 0) {
+        else if ($method === "PUT" && strpos($path, "/api/product/") == 0) {
             $pathParts = explode("/", $path);
             $id = $pathParts[count($pathParts) - 1];
             $controller = new ProductController();
@@ -38,7 +38,7 @@ class ProductRoutes
         }
 
         // JIKA REQUEST METHOD DELETE DAN PATH SAMA DENGAN /api/product/{id}
-        else if ($method === "DELETE" && strpos($path, "/api/product/") === 0) {
+        else if ($method === "DELETE" && strpos($path, "/api/product/") == 0) {
             $pathParts = explode("/", $path);
             $id = $pathParts[count($pathParts) - 1];
             $controller = new ProductController();

@@ -1,0 +1,244 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f4f4f9;
+  background: url('purple-aesthetic-rain.gif') center/cover no-repeat;
+  color: #333;
+}
+
+/* Styling navbar */
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #2a0a51;
+  padding: 10px 20px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
+
+.navbar h1 {
+  color: rgb(255, 255, 255);
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+.nav-menu {
+  display: flex;
+  gap: 10px;
+}
+
+/* Styles for the navbar links */
+.nav-menu ul {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+  margin: 0;
+  padding: 0;
+}
+
+/* Centering nav items */
+.nav-menu ul li {
+  margin: 0;
+}
+
+.nav-menu ul li a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  background-color: #3b0c6f;
+  padding: 10px 15px;
+  border-radius: 5px;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.nav-menu ul li a:hover {
+  background-color: #4c1a8a;
+}
+
+/* Hamburger button */
+.hamburger {
+  display: none;
+  font-size: 1.5rem;
+  color: rgb(255, 255, 255);
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+/* Responsive: Hide nav-menu and show hamburger */
+@media (max-width: 768px) {
+  /* Style for the navbar menu when the hamburger is clicked */
+  .nav-menu {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: #2a0a51;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    align-items: center; /* Center the items in the dropdown */
+    padding: 10px 0;
+  }
+
+  .nav-menu.active {
+    display: flex;
+  }
+
+  .nav-menu ul {
+    display: flex;
+    flex-direction: column; /* Stack the items vertically */
+    align-items: center; /* Center the items horizontally */
+    padding: 0;
+    margin: 0;
+  }
+
+  /* Add spacing between menu items */
+  .nav-menu ul li {
+    margin-bottom: 15px; /* Add space between each item */
+  }
+
+  .hamburger {
+    display: block;
+  }
+}
+
+
+.hero {
+  text-align: center;
+  padding: 50px 20px;
+  background: url('purple-aesthetic-rain.gif') center/cover no-repeat;
+  color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.hero-box {
+  background-color: #2a0a51; /* Transparansi untuk estetika */
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  max-width: 600px;
+  width: 90%; /* Agar responsif pada layar kecil */
+}
+
+.hero-box h2 {
+  margin-bottom: 15px;
+  font-size: 2rem;
+}
+
+.hero-box p {
+  margin-bottom: 20px;
+  font-size: 1.2rem;
+}
+
+.hero-box button {
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.hero-box button:hover {
+  background-color: #218838;
+}
+
+.courses {
+  padding: 20px;
+  background-color: #fff;
+  background: url('purple-aesthetic-rain.gif') center/cover no-repeat;
+}
+
+.course-list {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  
+  
+}
+
+.course-card {
+  background-color: #2a0a80;
+  color: rgb(255, 255, 255);
+  padding: 20px;
+  border-radius: 8px;
+  width: 250px;
+  text-align: center;
+  
+}
+
+.about, .contact {
+  padding: 20px;
+  background-color: #ffffff;
+  background: url('purple-aesthetic-rain.gif') center/cover no-repeat;
+}
+
+footer {
+  text-align: center;
+  background-color: #2a0a51;
+  color: white;
+  padding: 10px 0;
+}
+
+/* General section styling */
+.section-box {
+  background-color: #2a0a51; /* Warna kotak dengan transparansi */
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  color: white; /* Mengubah teks menjadi putih */
+  max-width: 800px; /* Batas lebar untuk konten */
+  margin: 0 auto 30px; /* Pusatkan kotak dan beri jarak antar bagian */
+  text-align: center;
+}
+
+/* Headings */
+.section-box h2 {
+  margin-bottom: 15px;
+  font-size: 2rem;
+}
+
+/* Paragraph styling */
+.section-box p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+/* Form styling */
+.section-box form input,
+.section-box form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.section-box form button {
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.section-box form button:hover {
+  background-color: #218838;
+}
+
