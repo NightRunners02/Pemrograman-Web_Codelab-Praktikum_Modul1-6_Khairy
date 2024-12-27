@@ -28,10 +28,13 @@
 - Codelab 1 - Modul 5 | (✅) 🗣️🔥
 - Praktikum 1 - Modul 5 | (✅) 🗣️🔥
 - Praktikum 2 - Modul 5 | (✅) 🗣️🔥
-- ---
+---
 # Modul 6
-- Codelab 1 - Modul 6 | (⛔️) 🗣️🔥
-- Praktikum 1 - Modul 6 | (⛔️) 🗣️🔥
+- Codelab 1 - Modul 6 | (✅) 🗣️🔥
+- Praktikum 1 - Modul 6 | (✅) 🗣️🔥
+---
+# Modul UAP
+- UAP | (✅) 🗣️🔥
 
 ---
 <details> 
